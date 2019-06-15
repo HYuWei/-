@@ -1,0 +1,421 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+body{background: #f5f5f5;}
+img{vertical-align: middle;border: none;max-width: 100%;overflow: hidden}
+/*广告大图*/
+.guanggaotu{width: 100%;height:78px;background: #2ca4d8;transition: .5s;overflow: hidden;}
+.guanggaotu .datu1{width: 1200px;height: 80px;transition: .5s;overflow: hidden;position: absolute;z-index: 2;left: 50%;margin-left: -614px;transform-origin:bottom;}
+.guanggaotu .datu1 a,.guanggaotu .datu2 a{width: 1200px;height: 80px;}
+.guanggaotu .datu2{width: 1200px;height: 75px;position: absolute;left: 50%;margin-left: -614px;z-index:1;transition: .5s;overflow: hidden}
+.guanggaotu:hover{height: 244px;overflow: hidden}
+.guanggaotu:hover .datu1{transform: translatey(250px);margin-top: -80px;opacity: 0;}
+.guanggaotu:hover .datu2{height: 245px;overflow: hidden}
+.guanggaotu #btn{position: absolute;right:0;top:0;z-index: 20;width: 30px;height: 30px;color: white;background: rgb(44,164,216);border: none;}
+.guanggaotu #btn:hover{background: rgba(0,91,171,.5);cursor: pointer;}
+
+/*登陆*/
+.login{width: 100%;height: 30px;background: #f4f4f4;border-bottom: 1px solid #e5e5e5;}
+.login .logindiv{width: 1200px;margin: auto;height: 30px;line-height: 30px;}
+.login .logindiv .llogin{float: left;width: 130px;height: 30px;}
+.login .logindiv .rlogin{float: right;width: 370px;height: 30px;}
+.login .logindiv .llogin a{font-size: 12px;color: #666a73}
+.login .logindiv a i{color: #ff4040;padding: 5px;font-size: 16px;}
+.login .logindiv .rlogin a{font-size: 12px;}
+.login .logindiv .rlogin span{font-size: 12px;color: #fd4040}
+.login .logindiv .rlogin a:nth-child(2){color: #fd4040;margin-right: 5px;}
+.login .logindiv .rlogin a:nth-child(3){color: #aaaaac;margin-right: 14px}
+.login .logindiv .rlogin a:nth-child(4){color: #737c7c;margin-right: 14px}
+.login .logindiv .rlogin a:nth-child(4) i{color: #aaaaac;font-size: 12px;padding: 0;}
+.login .logindiv .rlogin div:nth-child(5){display: inline-block;width: 90px;height: 30px;text-align: center;line-height: 30px;border: 1px solid #e5e5e5;border-top: none;border-bottom: none;position: relative;font-size: 12px;}
+.login .logindiv .rlogin div:nth-child(5) a{color:#737c7c; }
+.login .logindiv .rlogin div:nth-child(5):hover a{color:#fd4040;}
+.login .logindiv .rlogin div:nth-child(5):hover .rloginp a{color: #737373;}
+.login .logindiv .rlogin div:nth-child(5) i{color: #aaaaac;transition: .3s;}
+.login .logindiv .rlogin div:nth-child(5):hover{background: white;}
+.login .logindiv .rlogin div:nth-child(5):hover i{transform: rotate(180deg);color: #fd4040}
+.login .logindiv .rlogin a:hover{color: #fd4040}
+.login .logindiv .rlogin a:hover i{color:#fd4040}
+.login .logindiv .rlogin div:nth-child(5) .rloginp{position: absolute;width: 90px;height: 62px;background:white;top:29px;display: none;border: 1px solid #e5e5e5;border-bottom: none;border-top: none;left: -1px;}
+.login .logindiv .rlogin div:nth-child(5) .rloginp a{display: block;width: 75px;height: 30px;text-align: left;padding-left: 15px;}
+.login .logindiv .rlogin div:nth-child(5) .rloginp a:hover{color: #fd4040;}
+.login .logindiv .rlogin div:nth-child(5):hover .rloginp{display: block;}
+.login .logindiv .rlogin div:nth-child(6){display: inline-block;width: 80px;height: 30px;position: relative;}
+.login .logindiv .rlogin div:nth-child(6) a{color:#737c7c;font-size: 12px;}
+.login .logindiv .rlogin div:nth-child(6) a i{font-size: 18px;color:#aaaaac; }
+.login .logindiv .rlogin div:nth-child(6) p{position: absolute;width: 110px;height: 150px;background: white;left: -15px;text-align: center;line-height: 20px;display: none;}
+.login .logindiv .rlogin div:nth-child(6) p span{display: block;margin-top: 10px;color:#737c7c; }
+.login .logindiv .rlogin div:nth-child(6) p span:nth-child(2){margin-top: 0;margin-bottom: 5px;}
+.login .logindiv .rlogin div:nth-child(6):hover a i{color: #fd4040;}
+.login .logindiv .rlogin div:nth-child(6):hover a{color: #fd4040;}
+.login .logindiv .rlogin div:nth-child(6) p a{display: block;width: 90px;height: 90px;margin: auto;}
+.login .logindiv .rlogin div:nth-child(6):hover p{display: block;}
+
+/*导航*/
+.Nav{width: 100%;height:150px;background: #fff; }
+.nav{width:1208px;height: 150px;margin: auto;}
+.nav .navimg{display:inline-block;width: 251px;height: 150px;float: left;}
+.nav form{display: inline-block;width: 740px;height: 36px;border:2px solid #ff4040;float: left;margin-top: 32px;}
+.nav form input{width: 675px;height: 36px;outline: none;border: none;float: left;padding-left: 15px;}
+.nav form button{width: 50px;height: 36px;background: #ff4040;outline: none;border: none;float: right;color: white;font-size: 25px;cursor: pointer;}
+.nav .navgwc{float: right;width: 120px;height: 38px;border: 1px solid #d7d7d7;margin-top: 32px;line-height: 38px;color: #666666;margin-right: 14px;}
+.nav .navgwc sub{float: left;margin:9px 16px 12px 24px;font-size:20px;}
+.nav p{float: left;}
+.nav .navp{font-size: 12px;}
+.nav .navp a{display: inline-block;color: #afaab1;line-height: 30px;}
+.nav .navp a:hover{color:#ff4040}
+.nav .navp a{margin-right:16px;}
+.nav .navp2 a{display: inline-block;color: #333333;margin-right: 30px;line-height: 30px;margin-top: 10px;}
+.nav .navp2 a:hover{color:#ff4040;}
+
+
+.banner{width: 100%;height: 392px;background:rgb(84,162,210) }
+.banner .bannerdiv{width: 1208px;height: 392px;margin: auto;position: relative;}
+.banner .bannerdiv .bannerLeft{width: 205px;height: 388px;background: #2b2b2b;padding:2px 0;float: left}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0{width: 205px;height: 32px;font-size: 12px;color: #fff;line-height: 33px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 a{display: inline-block;color:#fff;height: 33px;line-height: 33px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 i{font-size:20px;color: #6c6c6c;width: 46px;height: 33px;text-align: center;line-height: 33px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0:hover{background: #fff;color: #2b2b2b;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0:hover a{color: #9b9e9e;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0:hover i{color: #ff4040}
+
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01{width: 1024px;background: #fff;overflow: hidden;position: absolute;top:0;left:205px;z-index: 1;box-shadow: 0 0 5px #b0b0b0;display: none;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul{width: 776px;float: left;overflow: hidden;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li{line-height: 38px;width: 775px;border-right: 1px solid #f2f2f2;overflow: hidden;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li:first-child{margin-top: 13px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li:last-child{margin-bottom: 13px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li div{width: 100px;height: 38px;float: left;text-align: right;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li div>a{float: right;color: rgb(120,120,120);font-size: 13px;height: 38px;line-height: 38px;font-weight: bold;margin-right: 10px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li div>span{float: right;color: rgb(120,120,120);font-weight: bold;margin-right: 10px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li p{float: left;border-bottom: 1px solid #f2f2f2;line-height: 38px;width: 654px;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li:last-child p{border-bottom: none;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li p a{color:rgb(120,120,120);margin:0 9px;height: 38px;line-height: 38px;float: left;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 a:hover{font-weight: bold;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0:hover .bannerLeft01{display: block;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 ul li p .colorred{color: #fd4040;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 .bannerLeft01img{width: 248px;height: 392px;float: left;}
+.banner .bannerdiv .bannerLeft .bannerLeftdiv0 .bannerLeft01 .bannerLeft01img a{display: inline-block;width: 120px;height: 50px;}
+/**/
+.banner .bannerdiv .bannerRight{width:1003px;height: 400px;float: right;position: relative;}
+.banner .bannerdiv .bannerRight a{display: block;width: 1003px;height: 400px;/* animation: a1 20s infinite linear; */}
+.banner .bannerdiv .bannerRight .bannerRight1{width: 34px;height:34px;border-radius: 50%;position: absolute;background: rgba(255,255,255,0.4);top:50%;margin-top: -22px;left: 8px;text-align: center;line-height: 34px;display: none;}
+.banner .bannerdiv .bannerRight .bannerRight1 i{font-size: 20px;margin-left: -3px;color: rgba(0,0,0,0.2)}
+.banner .bannerdiv .bannerRight .bannerRight2{width: 34px;height: 34px;border-radius: 50%;position: absolute;background: rgba(255,255,255,0.6);;top:50%;margin-top: -22px;right: 238px;text-align: center;line-height: 34px;display: none;}
+.banner .bannerdiv .bannerRight .bannerRight2 i{font-size: 20px;color: rgba(0,0,0,0.2)}
+.banner .bannerdiv .bannerRight:hover div{display: block;}
+.banner .bannerdiv .bannerRight div:hover{background: rgba(255,255,255,0.8);cursor: pointer}
+.banner .bannerdiv .bannerRight div:hover i{color: rgba(251,98,51,0.2);}
+.banner .bannerdiv .bannerDL{position: absolute;width: 205px;height: 251px;right: 20px;bottom: 62px;background:#fff url("../images/vip_bg2.png")no-repeat;text-align: center;font-size: 12px;color: #9b9e9e;}
+.banner .bannerdiv .bannerDL div{width: 64px;height: 64px;border-radius: 50%;border: 4px solid;margin:-32px auto 0;border-color: rgba(0,0,0,0.1)}
+.banner .bannerdiv .bannerDL div a{display: block;width: 64px;height: 64px;background: url("../images/avatar_default.jpg") no-repeat;background-size: cover;border-radius: 50%;}
+.banner .bannerdiv .bannerDL p{font-size: 12px;color: #9b9e9e;;margin-top: 15px;}
+.banner .bannerdiv .bannerDL .bannerDLa{display: inline-block;width: 70px;height: 26px;border-radius:16px;border: 1px solid #ff4040;margin-top: 32px;color:#ff4040;text-align: center;line-height: 26px;}
+.banner .bannerdiv .bannerDL .bannerDLa:hover{background: #fd4040;color: #fff;}
+.banner .bannerdiv .bannerDL .bannerDLa1{margin-right: 14px;}
+.banner .bannerdiv .bannerDL .bannerDLfont,.banner .bannerdiv .bannerDL .bannerDLfont1{color:#666666;display: inline-block;line-height: 26px;}
+.banner .bannerdiv .bannerDL .bannerDLfont span{color: #fd4040;}
+.banner .bannerdiv .bannerDL .bannerDLfont{margin-top: 44px;}
+.banner .bannerdiv .bannerDL .bannerDLfont:hover,.banner .bannerdiv.bannerDL .bannerDLfont1:hover{color: #fd4040;}
+.banner .bannerdiv .bannerJS{width:120px;height: 20px;position: absolute;bottom: 0;left: 50%;}
+.banner .bannerdiv .bannerJS div{width:8px;height: 8px;background: rgba(255,255,255,0.8);border: 1px solid #fff;border-radius: 50%;float: left;margin-right: 13px;}
+.banner .bannerdiv .bannerJS div:hover{background: rgba(247,131,130,0.8);cursor: pointer}
+
+
+
+
+/*抢购*/
+.rush{width: 1208px;height:140px;margin:10px auto 0;background: #fff;}
+.rush .rushleft{width: 200px;height: 140px;float: left;margin-right: 4px;}
+.rush .rushleft a{display: block;width: 205px;height: 140px;}
+.rush .rushright{width:1000px;height: 140px;float: left; }
+.rush .rushright div{width: 245px;height: 140px;background: #fff;float: left;border-right: 1px dashed #e5e5e5;position: relative;margin-right: 5px;}
+.rush .rushright div:last-child{margin-right: 0;}
+.rush .rushright a{display: block;width: 240px;height: 140px;}
+.rush .rushright div p{width: 96px;height: 140px;overflow: hidden;text-overflow: ellipsis;float: left;margin-left: 20px;}
+.rush .rushright div:last-child{border: none;}
+.rush .rushright div p span.rushrightspan{display: block;color:#656565;font-size: 12px;margin-top: 20px;width: 96px;height: 34px;overflow: hidden;text-overflow: ellipsis;}
+.rush .rushright div p span.rushrightspan1{display: block;color: #fd4040;font-size: 14px;margin-top: 17px;font-weight: bold;}
+.rush .rushright div p span.rushrightspan2{display: block;color: #aaacaf;font-size: 12px;margin-top: 10px}
+.rush .rushright div a img{float: right;margin-top: 20px;transition: .4s;}
+.rush .rushright div:hover a img{transform: translatex(-8px)}
+.rush .rushright div a .rushrightYS{position: absolute;right: 0;top: 0;width: 38px;height: 38px;background: url("../images/cc.png") -161px -151px;font-size: 12px;color: white;text-align: center;}
+
+
+/*内容*/
+.main{width: 1208px;height: 385px;margin:20px auto 0;}
+.main .maindiv1{width: 257px;height: 385px;float: left;position: relative;}
+.main .maindiv1 div{width: 200px;height: 100px;background: rgba(255,255,255,0.7);position: absolute;left: 50%;margin-left: -100px;bottom:34px;text-align: center;}
+.main .maindiv1 div p{font-size: 20px;margin-top: 20px;}
+.main .maindiv1 div i{display: block;width: 30px;height: 1px;background: #000;margin-top: 10px;margin-left: 85px;margin-bottom: 10px;}
+.main .maindiv1 div span{font-size: 12px;}
+.main .maindiv1:hover div{background: rgba(255,255,255,0.9)}
+
+.main .maindiv2{width:473px;height: 385px;border-top: 1px solid #fb6233;background: white;float: left;margin-left: 12px;}
+.main .maindiv3{width: 452px;height: 385px;border-top: 1px solid #f22e31;background: white;float: left;margin-left: 12px;}
+
+.main div .maindiv2TG{width: 140px;height: 32px;background: #fb6233;margin:-4px auto 0;position: relative;}
+.main div .maindiv2TG a{display: block;width: 140px;height: 32px;text-align: center;line-height: 32px;color: white;}
+.main div .maindiv2TG a .maindiv2TGi1{display: inline-block;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid  #c84e4e;position: absolute;left: -9px;z-index: -1;}
+.main div .maindiv2TG a .maindiv2TGi2{display: inline-block;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid  #c84e4e;position: absolute;right: -9px;z-index: -1;}
+
+
+.main .maindiv2 .maindiv2div1{width: 250px;height: 340px;float: left;margin-top: 12px;border-right: 1px solid #f0f0f0}
+.main .maindiv2 .maindiv2div2{width: 194px;height: 200px;float: left;margin: 12px 0 0 21px;border-bottom: 1px solid #f0f0f0;}
+.main .maindiv2 .maindiv2div3{width: 194px;height: 160px;margin-left: 21px;float: left;}
+.main .maindiv2 .maindiv2div2 a{display: block;width: 194px;height: 200px;}
+.main .maindiv2 .maindiv2div2 a span{display: inline-block;font-size: 20px;color: #ec3639;margin-top: 18px;margin-bottom: 8px;}
+.main .maindiv2 .maindiv2div2 a p{font-size: 14px;color: #595958}
+.main .maindiv2 .maindiv2div2 a img{margin-left: 100px;transition: .5s;}
+.main .maindiv2 .maindiv2div2 a:hover img{transform:translatex(-10px)}
+.main .maindiv2 .maindiv2div3 a{display: block;width: 194px;height: 160px;}
+.main .maindiv2 .maindiv2div3 a span{display: block;margin-top: 12px;font-size: 20px;color: #ec3639}
+.main .maindiv2 .maindiv2div3 a p{display: inline-block;font-size: 14px;color: #595958;margin-top: 8px;float: left;}
+.main .maindiv2 .maindiv2div3 a img{float: right;transition: .5s;}
+.main .maindiv2 .maindiv2div3 a:hover img{transform: translatex(-10px)}
+
+.main div .colorred{background: #f22e31;}
+
+.main .maindiv3 p{margin-right: 16px;margin-top: -15px;text-align: right;}
+.main .maindiv3 p>a{color: #999999;font-size: 12px;}
+.main .maindiv3 p>a:hover{color: #f22e31;}
+.main .maindiv3 ul{width: 410px;height: 40px;margin:5px auto 0;position: relative;}
+.main .maindiv3 ul li{width: 82px;height: 38px;float: left;border-bottom: 2px solid #eeeeee;}
+.main .maindiv3 ul li a{display: block;width: 82px;height: 38px;font-size: 12px;color: #666a74;line-height: 38px;text-align: center}
+.main .maindiv3 ul li:first-child a{color: #f22e31;}
+.main .maindiv3 ul li:first-child{border-bottom-color: #f22e31;}
+.main .maindiv3 ul li:hover a{color: #f22e31;}
+.main .maindiv3 ul li:hover{border-bottom-color: #f22e31;}
+.main .maindiv3 ul li .maindiv3div{width:408px;height: 308px;background: white;position: absolute;left: 0;top: 40px;display: none;}
+.main .maindiv3 ul li .maindiv3div div{width: 110px;height: 154px;margin-right: 38px;float: left;}
+.main .maindiv3 ul li .maindiv3div div:nth-child(3){margin-right: 0;}
+.main .maindiv3 ul li .maindiv3div div:nth-child(6){margin-right: 0;}
+.main .maindiv3 ul li .maindiv3div div a{display: block;width: 110px;height: 154px;font-size: 12px;color: #595959;position: relative;}
+.main .maindiv3 ul li .maindiv3div div a img{margin-top: 16px;}
+.main .maindiv3 ul li .maindiv3div div a p{position: absolute;top: 19px;left: 0;width: 22px;height: 22px;background:url("../images/indexbody_sprite.png") -59px 2px;font-size: 10px;color: white;font-style: normal;line-height: 22px;text-align:center;}
+.main .maindiv3 ul li .maindiv3div div a i{position: absolute;width: 46px;height: 16px;border-radius: 1px;
+background: #fb6233;text-align: center;line-height: 16px;left: 0;top: 108px;font-style: normal;color: white}
+.main .maindiv3 ul li .maindiv3div div:nth-child(2) p{background: url("../images/indexbody_sprite.png") -89px 2px;}
+.main .maindiv3 ul li .maindiv3div div:nth-child(3) p{background: url("../images/indexbody_sprite.png") -119px 2px;}
+.main .maindiv3 ul li .maindiv3div div a:hover{color: #f22e31;}
+
+/*内容2*/
+.main .maindiv2 .maindiv2div01{width: 200px;height: 110px;border-bottom: 1px solid #f0f0f0;float: left;margin-top: 13px;}
+.main .maindiv2 .maindiv2div01 div{float: left;width: 86px;height: 80px;margin-left: 18px;}
+.main .maindiv2 .maindiv2div01 div p{font-size: 14px;color: #333;margin:18px 0 4px;}
+.main .maindiv2 .maindiv2div01 div span{color: #a2a5a5;font-size: 12px;}
+.main .maindiv2 .maindiv2div01 img{float: right;margin-top: 18px;transition: .5s;}
+.main .maindiv2 .maindiv2div01:hover img{transform: translatex(-8px)}
+.main .maindiv3 .main2div1{width:452px;height: 220px;margin-top: 20px;}
+.main .maindiv3 .main2div1 div:first-child{width: 205px;height: 220px;padding-left: 20px;border-right: 1px solid #f0f0f0;position: relative;float: left;}
+.main .maindiv3 .main2div1 div:first-child a{display: block;width: 205px;height: 220px;}
+.main .maindiv3 .main2div1 div:first-child a p{position: absolute;top:20px;left: 20px;font-size: 14px;z-index: 20;width: 84px;height: 48px;}
+.main .maindiv3 .main2div1 div:first-child a p span:first-child{font-size: 14px;color: #000;z-index: 20}
+.main .maindiv3 .main2div1 div:first-child a p span:nth-child(2){font-size: 12px;color: #999999;}
+.main .maindiv3 .main2div1 div:first-child a img{transition: .5s;}
+.main .maindiv3 .main2div1 div:first-child:hover img{transform: translatex(-10px);}
+.main .maindiv3 .main2div1 div:nth-child(2){width: 182px;height: 110px;float: left;margin-left: 22px;border-bottom: 1px solid #f0f0f0;}
+.main .maindiv3 .main2div1 div p{width: 84px;height: 90px;float: left;margin:5px 0 0 0;}
+.main .maindiv3 .main2div1 div span:first-child{display: block;font-size: 12px;color: #000;text-align: left;}
+.main .maindiv3 .main2div1 div span:last-child{display: block;font-size: 14px;color: #999999;text-align: left;margin-top: 8px;}
+.main .maindiv3 .main2div1 div a img{transition: 0.5s;}
+.main .maindiv3 .main2div1 div a:hover img{transform: translatex(-10px)}
+.main .maindiv3 .main2div1 div img{float: right;}
+.main .maindiv3 .main2div1 div:nth-child(3){width: 182px;height: 110px;float: left;margin-left: 22px;}
+
+
+.main .maindiv3 .main2div2{width: 452px;height: 106px;margin:10px 0 0;}
+.main .maindiv3 .main2div2 div:first-child{width: 200px;height: 105px;background: #f8dfda;float: left;margin-left:20px;position: relative;overflow: hidden}
+.main .maindiv3 .main2div2 div:first-child a{display: block;width: 200px;height: 105px;}
+.main .maindiv3 .main2div2 div:nth-child(2){width: 200px;height: 105px;background: #fdf2e0;float: right;margin-right: 20px;overflow: hidden;position: relative;}
+.main .maindiv3 .main2div2 div:nth-child(2) a{display: block;width: 200px;height: 105px;}
+.main .maindiv3 .main2div2 div:first-child a p,.main .maindiv3 .main2div2 div:nth-child(2) a p{width: 74px;height: 32px;position: absolute; top:30px;left: 12px;text-align: left;z-index: 20;}
+.main .maindiv3 .main2div2 div:first-child a span,.main .maindiv3 .main2div2 div:nth-child(2) a span{display: block;font-size: 14px;color: #fb6233;margin-bottom: 6px;}
+.main .maindiv3 .main2div2 div:first-child a img,.main .maindiv3 .main2div2 div:nth-child(2) a img{transition: .5s;}
+.main .maindiv3 .main2div2 div:first-child a:hover img,.main .maindiv3 .main2div2 div:nth-child(2) a:hover img{transform: translatex(-10px)}
+
+/*插图*/
+.image{width: 1208px;height: 100px;margin:20px auto 0;}
+.image a{display: block;width: 1208px;height: 100px;margin: auto}
+
+
+/*全球进口*/
+.import{width: 1208px;height: 475px;margin:20px auto 0;}
+.import div{width: 1208px;height: 48px;line-height: 48px;}
+.import div a{font-size: 20px;color: #645154;font-weight: bold;position: relative}
+.import div a i{display: inline-block;width: 17px;height: 17px;border-radius: 50%;background: #645154;margin-left: 10px;text-align: center;color: white;font-size: 12px;line-height: 18px;position: absolute;top:5px;}
+.import .importdiv{width: 1208px;height: 427px;}
+.import .importdiv div:first-child{width: 910px;height: 427px;border: 5px solid #221f4a;float: left;background: #fff;}
+.import .importdiv div:first-child ul{width: 910px;height: 427px;}
+.import .importdiv div:first-child ul li{float: left;background: #fff;transition: .5s;}
+.import .importdiv div:first-child ul li:first-child{width: 300px;height: 427px;}
+.import .importdiv div:first-child ul li:first-child a{display: block;width: 300px;height: 427px;}
+.import .importdiv div:first-child ul li:nth-child(2){width: 390px;height: 200px;}
+.import .importdiv div:first-child ul li:nth-child(2) a{display: block;width: 390px;height: 200px;}
+.import .importdiv div:first-child ul li:nth-child(3){width: 200px;height: 210px;margin-left: 15px;}
+.import .importdiv div:first-child ul li:nth-child(3) a{display: block;width: 190px;height: 210px;overflow: hidden;}
+.import .importdiv div:first-child ul li p{width: 170px;height: 60px;margin:14px 0 0 20px;}
+.import .importdiv div:first-child ul li p span{display: block;line-height: 24px;font-size: 14px;color: #343434;font-weight: normal;}
+.import .importdiv div:first-child ul li p span:last-child{font-size: 12px;color: #999999;}
+.import .importdiv div:first-child ul li img{float: right;}
+.import .importdiv div:first-child ul li:nth-child(4){width: 202px;height: 215px;border-right: 1px solid #000;border-top: 1px solid #000;}
+.import .importdiv div:first-child ul li:nth-child(5){width: 202px;height: 215px;border-right: 1px solid #000;}
+.import .importdiv div:first-child ul li:nth-child(6){width: 202px;height: 215px;}
+
+.import .importdiv div:first-child ul  .importdivli:hover{transform: scale(1.1,1.1);border: none;box-shadow: 0 0 5px #b0b0b0;}
+.import .importdiv .importdivR{width: 285px;height:450px;float: right;}
+.import .importdiv .importdivR div{width: 140px;height: 150px;float: left;border: none;}
+.import .importdiv .importdivR div a{display: block;width: 140px;height: 150px;}
+.import .importdiv .importdivR div p:first-child{font-size: 14px;color: #f06291;margin: 20px 0 0 10px;line-height: 26px;}
+.import .importdiv .importdivR div p:nth-child(2){font-size: 12px;color: #757575;margin: 0 0 0 10px;line-height: 24px;}
+.import .importdiv .importdivR div img{float: right;transition: .5s;margin-top: -20px;}
+.import .importdiv .importdivR div:hover img{transform: translatex(-10px);}
+.import .importdiv .importdivR div:first-child{background: #ffe6ee;}
+.import .importdiv .importdivR div:nth-child(2){background: #fff3e4}
+.import .importdiv .importdivR div:nth-child(3){background: #e9fbf0}
+.import .importdiv .importdivR div:nth-child(4){background: #f9eee9}
+.import .importdiv .importdivR div:nth-child(5){background: #f0f8ff}
+.import .importdiv .importdivR div:nth-child(6){background: #e2f8f2}
+
+
+/*国产食品*/
+.foot{width: 1208px;height: 430px;margin: 20px auto 0;text-align: center;}
+.foot .foot1{width: 236px;height: 430px;background: #f89e5d;float: left;}
+.foot .foot1 .foot1a{display: block;width: 121px;height: 38px;margin:15px auto 0;font-size: 20px;color: #fff;border-bottom: 1px solid #fff;text-align: center;line-height: 38px;}
+.foot .foot1 span{font-size: 14px;color: #fff;}
+.foot .foot1 .foot1a2{display: block;width: 193px;height: 255px;background:#fff;margin:36px auto 0;overflow: hidden}
+.foot .foot1 .foot1a2 p:first-child{font-size: 14px;color: #f9984b;margin-top: 18px;}
+.foot .foot1 .foot1a2 p:nth-child(2){font-size: 12px;color: #000;margin-top: 5px;}
+.foot .foot1 .foot1a2 img{margin-top: 10px;}
+.foot .foot1>p{width: 236px;height: 42px;margin-top: 22px;background: #fac185;}
+.foot .foot1>p>a{font-size: 12px;color: #fff;}
+.foot .foot1>p>i{width: 42px;height: 26px;margin-top: 8px;text-align: center;line-height: 26px;color: #fff;border-right: 1px solid #fff;}
+.foot .foot2{width:744px;height: 430px;float: left;background: #fff; }
+.foot .foot2 ul{width: 741px;height: 40px;border-bottom: 1px solid #e0e0e0;border-right: 1px solid #e0e0e0;background: #fff;}
+.foot .foot2 ul li{height: 40px;float: left;padding: 0 17px;text-align: center;line-height: 40px;}
+.foot .foot2 ul li a{display: inline-block;height: 40px;color: #aaaab1;font-size: 12px;}
+.foot .foot2 ul li a:hover{color:#f9984b; }
+.foot .foot2 div{width: 245px;height: 190px;float: left;text-align: left;background: #fff;border-right: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;margin-right: 1px;}
+.foot .foot2 div a{display: block;width: 247px;height: 194px;overflow: hidden}
+.foot .foot2 div a p{font-size: 12px;color: #000;margin: 20px 0 5px 20px;width: 90px;}
+.foot .foot2 div a span{display:block;font-size: 12px;color: #f9984b;margin-left: 20px;}
+.foot .foot2 div a img{float: right;transition: .5s;margin-right: 10px;}
+.foot .foot2 div a.foot2A:hover img{transform: translatex(-10px)}
+.foot .foot2 div:last-child{padding: 16px 20px;box-sizing: border-box}
+.foot .foot2 div:last-child a{display:block;width: 100px;height: 50px;border-right: 1px solid #e0e0e0;float: left;border-bottom: 1px solid #e0e0e0;}
+.foot .foot2 div:last-child a img{margin-top: 10px;}
+.foot .foot2 div:last-child a:nth-child(2),.foot .foot2 div:last-child a:nth-child(4),.foot .foot2 div:last-child a:nth-child(6){border-right: none}
+.foot .foot2 div:last-child a:nth-child(5),.foot .foot2 div:last-child a:nth-child(6){border-bottom: none;}
+.foot .foot3{width: 228px;height: 430px;float: left;background: #fff;}
+.foot .foot3 p{width: 228px;height: 40px;text-align: center;line-height: 40px;font-size: 14px;color: #666666;font-weight: bold;}
+.foot .foot3 ul{width: 228px;height: 390px;}
+.foot .foot3 ul li{width: 208px;height: 76px;padding:0 20px;}
+.foot .foot3 ul li a{display: block;width: 208px;height: 76px;font-size: 12px;color: #000;}
+.foot .foot3 ul li a img{float: left;margin-top: 10px;}
+.foot .foot3 ul li a span{width: 108px;height: 40px;display: inline-block;margin-top:10px;float: left;margin-left: 13px;text-align: left;}
+.foot .foot3 ul li a span i{display: inline-block;font-size: 14px;color: #f00;font-style: normal;line-height: 30px;}
+.foot .foot3 ul li a:hover{color: #f00;}
+
+/*固定内容*/
+.LTfoot{width: 1208px;height: 430px;margin:20px auto 0;}
+.LTfoot div{width:598px;height: 430px;float: left; }
+.LTfoot div:first-child{margin-right: 10px;}
+.LTfoot .LTfootT{width: 598px;height: 49px;background: #09cf9a;line-height: 49px;}
+.LTfoot .LTfootT p{float: left;font-size: 20px;margin-left: 20px;}
+.LTfoot .LTfootT p a{font-size: 20px;color: #fff;}
+.LTfoot .LTfootT span{float: right;font-size: 12px;color: #fff}
+.LTfoot .LTfootT a{float: right;font-size: 12px;color: #fff;}
+.LTfoot .LTfootT a{margin: 0 10px;}
+.LTfoot .LTfootT>a:hover{font-weight: bold;}
+.LTfoot .LTfootB{width: 598px;height: 381px;background: #fff;}
+.LTfoot .LTfootB ul{width: 589px;height: 381px;}
+.LTfoot .LTfootB ul li:first-child{width: 226px;height: 381px;overflow: hidden;float: left;border-right: 1px solid #e0e0e0;}
+.LTfoot .LTfootB ul li:first-child a{display: block;width: 226px;height: 381px;}
+.LTfoot .LTfootB ul li:first-child p{font-size: 20px;color: #38d6aa;margin: 26px 0 0 20px;}
+.LTfoot .LTfootB ul li:first-child span{font-size: 14px;color: #b0b0b0;margin-left: 20px;}
+.LTfoot .LTfootB ul li:first-child img{float: right;margin-top: -100px;}
+.LTfoot .LTfootB ul li{width: 175px;height: 190px;float: left;}
+.LTfoot .LTfootB ul li a{width: 175px;height: 190px;display: block;}
+.LTfoot .LTfootB ul li a p{font-size: 14px;color: #000;margin:24px 0 0 20px;}
+.LTfoot .LTfootB ul li a span{font-size: 14px;color: #38d6aa;margin-left: 20px;}
+.LTfoot .LTfootB ul li a img{float: right;transition: .5s;}
+.LTfoot .LTfootB ul li a:hover img{transform:translatex(-10px)}
+.LTfoot div .colorB{background: #96374e;}
+.LTfoot div .LTfootB ul li:first-child p.color2{color:#96374e; }
+.LTfoot .LTfootB ul li a span.color2{color: #96374e}
+
+/*食品2*/
+.foot .colorB2{background: #ff90d3;}
+.foot .foot1>p.colorB3{background: #ffa9ce;}
+.foot .foot2 div a .color3{color: #ff90d3;}
+.foot .foot2 ul li .color4:hover{color: #ff90d3;}
+
+/*固定内容2*/
+.LTfoot .colorB4{background: #ff8787;}
+.LTfoot .LTfootB ul li:first-child p.color5{color: #ff8787;}
+.LTfoot .LTfootB ul li a span.color5{color: #ff8787;}
+
+.LTfoot .colorB5{background: #6bc7ff;}
+.LTfoot .LTfootB ul li:first-child p.color6{color:  #6bc7ff;}
+.LTfoot .LTfootB ul li a span.color6{color: #6bc7ff;}
+
+/*食品3*/
+.foot .colorB6{background: #a57561;}
+.foot .foot1>p.colorB7{background: #c2a69b;}
+.foot .foot2 div a .color7{color: #a57561;}
+.foot .foot2 ul li .color8:hover{color: #a57561;}
+
+/*懂你想要*/
+.DN{width: 1208px;height: 40px;margin:20px auto 0;text-align: center;line-height: 40px;}
+.DN p{font-size: 18px;color: #000;}
+.DN p i{display: inline-block;width: 27px;height: 18px;background: url("../images/indexbody_sprite.png") -180px 0;}
+.DN p i:last-child{background: url("../images/indexbody_sprite.png") -220px 0;}
+
+
+/*推荐*/
+.TJ{width: 1208px;overflow: hidden;margin:0 auto 80px;text-align: center;position: relative}
+.TJ div{width: 210px;height: 303px;background: #fff;float: left;margin-bottom: 12px;padding: 10px 10px 0 10px;position: relative;overflow: hidden;border: 1px solid #fff;margin-right: 11px;}
+.TJ div a span{font-size: 14px;color: #000;}
+.TJ div p{width: 231px;height: 90px;position: absolute;left: 0;bottom:20px;transform: translatey(60px);transition: .5s;padding: 0 0 0 10px;background: #fff;cursor: pointer;text-align: left;}
+.TJ div p span{display: block;line-height: 28px;color: #f12c30;margin-top: 20px;font-weight: bold;height: 28px;}
+.TJ div p span .TJi1{float: left;font-style: normal;}
+.TJ div p span .TJi2{float: right;width: 30px;height: 16px;border: 1px solid #ffcce0;background:#fff3fa ;color: #ff62a1;text-align: center;line-height: 16px;font-size: 12px;font-style: normal;margin:5px 10px 0 0;}
+.TJ div p a{display: block;width: 100px;height: 30px;background: #f00;color: #fff;text-align: center;line-height: 30px;font-size: 14px;margin-top: 8px;}
+.TJ div:hover p{transform: translatey(0);}
+.TJ div:hover{border: 1px solid #ff8787;}
+
+.TJ div:nth-child(5){margin-right: 0;}
+.TJ div:nth-child(10){margin-right: 0;}
+.TJ div:nth-child(15){margin-right: 0;}
+
+/*底部*/
+.bottom{width: 100%;overflow: hidden;background: #fff;}
+.bottom1{width: 1208px;height: 126px;margin: auto;}
+.bottom1 ul{width: 1208px;height: 126px;border-bottom: 1px solid #ebebeb;}
+.bottom1 ul li{float: left;width: 265px;height: 126px;margin-right: 20px;text-align: center;line-height: 126px;}
+.bottom1 ul li:first-child{background: url("../images/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg") no-repeat;background-position:  50px center;}
+.bottom1 ul li p{width: 140px;line-height: 26px;font-size: 18px;margin-top: 42px;padding-left: 130px;text-align: left;font-weight: bold;}
+.bottom1 ul li span{display: block;width: 140px;line-height: 26px;padding-left: 130px;margin:0;text-align: left;font-size: 14px;color: #999999;}
+.bottom1 ul li:nth-child(2){background: url("../images/CgQIz1WslI-Adao3AAAN5b_ut2I80100.jpg") no-repeat;background-position: 50px center}
+.bottom1 ul li:nth-child(3){background: url("../images/ChEbulWsk4iADa_aAAAM544hHN818600.jpg") no-repeat;background-position: 50px center}
+.bottom1 ul li:nth-child(4){background: url("../images/ChEi11WsyiyALBbiAAAN9lEEK5M33200.jpg") no-repeat;background-position: 50px center}
+
+
+.bottom2{width: 1208px;height: 180px;margin: 20px auto 0;}
+.bottom2 ul{width: 1208px;height: 160px;margin-top: 20px;}
+.bottom2 ul li{height: 160px;width: 180px;float: left;margin: 0 0 0 30px;}
+.bottom2 ul li span{display: block;width: 160px;font-size: 14px;color: #666666;margin-bottom: 5px;font-weight: bold;}
+.bottom2 ul li p{line-height: 24px;}
+.bottom2 ul li p a{font-size: 12px;color: #6a6f74;}
+.bottom2 ul li:nth-child(5){width: 100px;}
+.bottom2 ul li:nth-child(5) a{display: block;width: 90px;height: 90px;}
+.bottom2 ul li:nth-child(6){width: 100px;}
+.bottom2 ul li a:hover{color: #f12c30;}
+
+
+
+.bottom3{width: 1208px;height: 120px;margin:10px auto 0;text-align: center;}
+.bottom3 p{font-size: 12px;line-height: 28px;color: #666666}
+.bottom3 p a{color: #666666}
+.bottom3 p a:hover{color: #f12c30;}
+.bottom3 span{margin: 0 10px;}
+.bottom3 div{width: 530px;height: 50px;margin:10px auto;}
